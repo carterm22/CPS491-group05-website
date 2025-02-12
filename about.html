@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: #121212;
+            color: #ffffff;
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #1f1f1f;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+        }
+        nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: #00aaff;
+        }
+        section {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 30px;
+            background-color: #1e1e1e;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+            text-align: center;
+        }
+        .content-wrapper {
+            max-width: 6.5in;
+            margin: auto;
+            text-align: justify;
+            line-height: 1.8;
+        }
+        button {
+            background-color: #00aaff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        button:hover {
+            background-color: #0088cc;
+        }
+        footer {
+            background-color: #1f1f1f;
+            padding: 15px;
+            text-align: center;
+            font-size: 14px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>About Our Team</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h1>Hi, we are Team 05!</h1>
+        <p>Our team for Capstone II consists of Brady Koenig, David Deeter, and Maya Carter.</p>
+        <div class="content-wrapper">
+            <p>
+                With guidance from Lacie Stiffler, we are using the skills we’ve learned over our four years at the
+                University of Dayton to work on a real-world software development project. This experience helps us
+                apply what we’ve studied, work as a team, and improve our coding and problem-solving skills. Through
+                this project, we are gaining hands-on experience and preparing for future careers in software
+                development.
+            </p>
+        </div>
+        <button onclick="location.href='projects.html'">Explore Our Projects</button>
+    </section>
+    <footer>
+        <p>&copy; 2025 Team 05 Capstone II</p>
+    </footer>
+</body>
+</html>

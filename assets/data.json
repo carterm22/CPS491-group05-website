@@ -1,0 +1,35 @@
+{
+    "projectName": "SWJ Project",
+    "description": "A research-based web application for the Society of Women Journalists.",
+    "team": [
+        {
+            "name": "Brady Koenig",
+            "role": "Lead Developer"
+        },
+        {
+            "name": "Maya Carter",
+            "role": "UI/UX Designer"
+        },
+        {
+            "name": "David Deeter",
+            "role": "Backend Developer"
+        }
+    ],
+    "milestones": [
+        {
+            "title": "Initial Development",
+            "date": "2025-01-10",
+            "status": "Completed"
+        },
+        {
+            "title": "Prototype Release",
+            "date": "2025-02-15",
+            "status": "In Progress"
+        },
+        {
+            "title": "Final Version",
+            "date": "2025-05-01",
+            "status": "Pending"
+        }
+    ]
+}
