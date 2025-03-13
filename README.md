@@ -4,5 +4,5 @@ The **Society of Women Journalists (SWJ) Project** is a web application aimed at
 
 **Frontend:** JavaScript, HTML, CSS\
 **Backend:** Python, Django\
-**Database:** SQLite3\
+**Database:** PostgreSQL\
 **Hosting:** Render
